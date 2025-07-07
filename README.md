@@ -5,6 +5,9 @@ This repository presents a generic reference implementation for a cloud‑native
 ## Background
 Modern proteomics experiments generate terabytes of raw mass‑spectrometry (MS) data every week. Turning these data into biological insight requires heavy compute, sophisticated statistical pipelines, and robust data‑management workflows. Local workstation resources quickly become a bottleneck, both for storage and for reproducible, scaled analytics.
 
+## Architecture Diagramm:
+![Architecture Diagram] (C:\Users\loren\Downloads\AWS.drawio.png)
+
 ## Architecture Description 
 The project was implemented on AWS. Raw mass-spectrometry files are uploaded from the lab through an AWS Storage Gateway (File Gateway) into an encrypted, 
 versioned S3. EventBridge routes Informations to a Lambda function; Lambda records metadata and launches the workflow via Nextflow Tower. 
