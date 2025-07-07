@@ -6,7 +6,13 @@ This repository presents a generic reference implementation for a cloud‑native
 Modern proteomics experiments generate terabytes of raw mass‑spectrometry (MS) data every week. Turning these data into biological insight requires heavy compute, sophisticated statistical pipelines, and robust data‑management workflows. Local workstation resources quickly become a bottleneck, both for storage and for reproducible, scaled analytics.
 
 ## Architecture Diagramm:
-![Architecture Diagram] (C:\Users\loren\Downloads\AWS.drawio.png)
+![Architecture Diagram](AWS.drawio.png)
+
+Bemerkung: 
+Dieses Diagramm ist dem original angelehnt, unterscheidet sich jedoch trotzdem. Es wurde dutlich vereinfach und es wurden auf spezifische implementierungstechniken verzichtet. Es
+soll eher dem Zweck dienen eine Übersicht, über die verwendeten Services und Netzwerkpraktiken zu bieten. 
+### Note 
+This diagram is inspired by the original architecture but has been significantly simplified. Specific implementation details have been omitted in favor of clarity and data protection. Its primary purpose is to provide an overview of the services used and the general networking approach.
 
 ## Architecture Description 
 The project was implemented on AWS. Raw mass-spectrometry files are uploaded from the lab through an AWS Storage Gateway (File Gateway) into an encrypted, 
