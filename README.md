@@ -8,9 +8,6 @@ Modern proteomics experiments generate terabytes of raw mass‑spectrometry (MS)
 ## Architecture Diagramm:
 ![Architecture Diagram](AWS.drawio.png)
 
-Bemerkung: 
-Dieses Diagramm ist dem original angelehnt, unterscheidet sich jedoch trotzdem. Es wurde dutlich vereinfach und es wurden auf spezifische implementierungstechniken verzichtet. Es
-soll eher dem Zweck dienen eine Übersicht, über die verwendeten Services und Netzwerkpraktiken zu bieten. 
 ### Note 
 This diagram is inspired by the original architecture but has been significantly simplified. Specific implementation details have been omitted in favor of clarity and data protection. Its primary purpose is to provide an overview of the services used and the general networking approach.
 
