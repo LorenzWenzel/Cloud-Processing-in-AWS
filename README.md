@@ -1,6 +1,6 @@
 # Cloud Processing – Reference Implementation (Enterprise‑Neutral)
 ## Purpose
-This repository presents a generic reference implementation for a cloud‑native proteomics data‑processing platform.All organisation‑specific names, internal codes, and proprietary visuals have been removed or replaced by neutral placeholders so the solution can be shared publicly.
+This repository presents a generic reference implementation for a cloud‑native proteomics data‑processing platform.All organisation‑specific names, internal codes, and proprietary visuals have been removed or replaced by neutral placeholders so that the architectural solutions can be discussed.
 
 ## Background
 Modern proteomics experiments generate terabytes of raw mass‑spectrometry (MS) data every week. Turning these data into biological insight requires heavy compute, sophisticated statistical pipelines, and robust data‑management workflows. Local workstation resources quickly become a bottleneck, both for storage and for reproducible, scaled analytics.
